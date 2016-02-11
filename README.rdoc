@@ -2,10 +2,10 @@
 
 Feedback on application:
 
-Biggest problem was getting ENV variables accurate for S3, I had to set the following S3 variables using;
-heroku config:set S3_HOST_NAME=s3-us-west-2.amazonaws.com
-heroku config:set S3_REGION=us-west-2
-heroku config:set S3_BUCKET_NAME=YourBucketName
+Biggest problem was getting ENV variables accurate for S3, I had to set the following S3 variables using;<br/>
+heroku config:set S3_HOST_NAME=s3-us-west-2.amazonaws.com</br>
+heroku config:set S3_REGION=us-west-2</br>
+heroku config:set S3_BUCKET_NAME=YourBucketName</br>
 
 (besides that)
 
