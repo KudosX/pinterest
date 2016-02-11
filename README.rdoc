@@ -1,0 +1,26 @@
+== Pinterest application
+
+Feedback on application:
+
+* Explained very well
+
+* Doesn't use testing
+
+* Uses Github, deploys to Heroku, Devise for authorization/authentication
+
+* database is sqlite3 for test/dev and postgres for production
+
+* Excellent use of Bootstrap and components
+
+* Other gems; paperclip, paginate
+
+* Implements Imagemagick (open source image editing software), brew install imagemagick
+
+* Uses Amazon S3 (Heroku not in storage biz), Jquery Masonry, Coffeescript
+
+* Environmental variables used with AWS S3
+
+* Uses model associations of has_many and belongs_to
+
+
+
