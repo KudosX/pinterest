@@ -10,7 +10,7 @@
           <em>Author: </em><strong><%= @pin.user.name %></strong><br/><br/>
 
           <% if @pin.user == current_user %>
-          <%= link_to 'Edit', edit_pin_path(@pin) %> &nbsp;&nbsp;|&nbsp;&nbsp;
+          <%= link_to 'Edit', edit_pin_path(@pin) %>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
           <% end %>
           <%= link_to 'Back', pins_path %>
 
